@@ -252,6 +252,8 @@ void  Init_IO(void){
   //analogSetAttenuation(ADC_0db);
 
   #ifdef SECOND_PROTOTYPE
+    pinMode(SENSOR_3V_POWER, OUTPUT);
+    digitalWrite(SENSOR_3V_POWER, SENSOR_3V_ENABLE);
     pinMode(PERIPHERAL_ENABLE, OUTPUT);
     digitalWrite(PERIPHERAL_ENABLE, ON);  
   

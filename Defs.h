@@ -124,8 +124,8 @@ Found 3 device(s).
   #define PERIPHERAL_ENABLE 2 //34 RTC_GPIO4    
 
 
-  #define SENSOR_3V_ENABLE 0// FALSE Logic
-  #define SENSOR_3V_DISABLE 1// 
+  #define SENSOR_3V_ENABLE 1// FALSE Logic
+  #define SENSOR_3V_DISABLE 0// 
 
   
 
